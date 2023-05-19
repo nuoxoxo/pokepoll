@@ -1,1 +1,2 @@
-do: [beej.us](https://beej.us/guide/bgnet/html/#poll)
+do
+- [ ] [beej.us](https://beej.us/guide/bgnet/html/#poll)
