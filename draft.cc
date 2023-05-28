@@ -7,12 +7,13 @@
 #include "netinet/in.h"
 #include "errno.h"
 
-#define SERVER_PORT  12345
+#define SERVER_PORT  7000
+// #define SERVER_PORT  12345
 
 #define TRUE             1
 #define FALSE            0
 
-int main (int argc, char *argv[])
+int main (int argc, char **argv)
 {
   int    len, rc, on = 1;
   int    listen_sd = -1, new_sd = -1;
